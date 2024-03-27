@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C517B14-DB29-4ED7-A7BD-EFDB5156DB00}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>E_Commrce_Website</RootNamespace>
+    <AssemblyName>E-Commrce Website</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="AddBrand.aspx" />
+    <Content Include="AddCategory.aspx" />
+    <Content Include="AddGender.aspx" />
+    <Content Include="AddProduct.aspx" />
+    <Content Include="AddSize.aspx" />
+    <Content Include="AdminHome.aspx" />
+    <Content Include="Cart.aspx" />
+    <Content Include="CountactUs.aspx" />
+    <Content Include="css\bootstrap-grid.css" />
+    <Content Include="css\bootstrap-grid.min.css" />
+    <Content Include="css\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap-reboot.min.css" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\Custome.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="EditBrand.aspx" />
+    <Content Include="EditCategory.aspx" />
+    <Content Include="EditSize.aspx" />
+    <Content Include="EditSubCategory.aspx" />
+    <Content Include="ForgetPassword.aspx" />
+    <Content Include="imagesilder\1525765731310.jpg" />
+    <Content Include="imagesilder\5_8.jpg" />
+    <Content Include="imagesilder\alogo.png" />
+    <Content Include="imagesilder\e-commerce-creative-eye-creative-image-8436971b277975c784a91f8a4eea5e12.png" />
+    <Content Include="imagesilder\flat-horizontal-sale-banner-template-with-photo_23-2149000923.jpg" />
+    <Content Include="imagesilder\Untitled-M.jpg" />
+    <Content Include="Images\footwer.jpg" />
+    <Content Include="Images\mens.jpg" />
+    <Content Include="Images\ProductImages\10\51GwgLJeDaL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\10\51n+IafIkcL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\10\51nrilthcsL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\10\51tdKRqk15L._UY741_.jpg" />
+    <Content Include="Images\ProductImages\10\71fknERt9vL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\11\71jureJVMFL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\11\71MG6X9zebL._UY879_.jpg" />
+    <Content Include="Images\ProductImages\11\71yc2dj0cvL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\11\81HoIsRlOQL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\11\81LnyoYBZPL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\12\61cT1DxvNLS._UY606_.jpg" />
+    <Content Include="Images\ProductImages\12\61OmtI3CCVL._UY606_.jpg" />
+    <Content Include="Images\ProductImages\12\7103SztHCDL._UY606_.jpg" />
+    <Content Include="Images\ProductImages\12\71D4+gjQJwL._UY606_.jpg" />
+    <Content Include="Images\ProductImages\12\71ibMtDoOZL._UY606_.jpg" />
+    <Content Include="Images\ProductImages\13\81BFgis0rvL._UX569_.jpg" />
+    <Content Include="Images\ProductImages\13\81eLaAvvgtL._UX569_.jpg" />
+    <Content Include="Images\ProductImages\13\81yeGGc+qpL._UX569_.jpg" />
+    <Content Include="Images\ProductImages\13\919Gtnl++yL._UX569_.jpg" />
+    <Content Include="Images\ProductImages\13\A1u5XFZQdbL._UX569_.jpg" />
+    <Content Include="Images\ProductImages\14\41ZKShurvTL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\14\718HJ58RALL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\14\71ccW1aWyIL._SY741._SX._UX._SY._UY_.jpg" />
+    <Content Include="Images\ProductImages\14\71dlUVsYSaL._SY741._SX._UX._SY._UY_.jpg" />
+    <Content Include="Images\ProductImages\14\81GsKWvZbOL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\16\61hoHh7uJhL._UY606_.jpg" />
+    <Content Include="Images\ProductImages\16\61iytLtgrvL._SY606._SX._UX._SY._UY_.jpg" />
+    <Content Include="Images\ProductImages\16\61LzYH+yqaL._UX466_.jpg" />
+    <Content Include="Images\ProductImages\16\61TsSKekBOL._SY606._SX._UX._SY._UY_.jpg" />
+    <Content Include="Images\ProductImages\16\61xKtEJR1ZL._SY606._SX._UX._SY._UY_.jpg" />
+    <Content Include="Images\ProductImages\17\51+CfJ96z2L._UX679_.jpg" />
+    <Content Include="Images\ProductImages\17\519P+Z-+xKL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\17\51l5eIlP6RL._UX679_ %281%29.jpg" />
+    <Content Include="Images\ProductImages\17\51l5eIlP6RL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\17\51TCqq5i1OL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\18\51-VDUTfTPL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\18\51A0+IyYJ3L._UX522_.jpg" />
+    <Content Include="Images\ProductImages\18\51EoMLkF0VL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\18\51Ym+RgwJVL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\18\61C2neF6yeL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\19\51qvQnjCbRL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\19\51W5FtBiF4L._UY741_.jpg" />
+    <Content Include="Images\ProductImages\19\61Nb2n7P6TL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\19\61qcnAHZP3L._UX679_.jpg" />
+    <Content Include="Images\ProductImages\19\61QPeg9M9CL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\1\41-3MwJ8rrL.jpg" />
+    <Content Include="Images\ProductImages\1\41iBWksoGuL.jpg" />
+    <Content Include="Images\ProductImages\1\51+XTY06zQL.jpg" />
+    <Content Include="Images\ProductImages\1\61Aqh6JzhkL.jpg" />
+    <Content Include="Images\ProductImages\1\61yCcg1blxL.jpg" />
+    <Content Include="Images\ProductImages\21\71p0J0qnydL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\21\81eIbOUIY8L._UY741_.jpg" />
+    <Content Include="Images\ProductImages\21\81qAnwrf6eL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\21\81wtOyE9kxL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\21\91IQNP7MGhL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\2\71EKJbTNWtL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\2\81+6k1hJROL._UX522_.jpg" />
+    <Content Include="Images\ProductImages\2\810tthvmSxL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\2\81FNLZlyNaL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\2\81xgdYFmswL._UX522_.jpg" />
+    <Content Include="Images\ProductImages\31\912QqULxLtL._UX522_.jpg" />
+    <Content Include="Images\ProductImages\31\91lDRBxPF4L._UY550_.jpg" />
+    <Content Include="Images\ProductImages\31\91oNHYoowLL._UY550_.jpg" />
+    <Content Include="Images\ProductImages\31\91TLTT1ycbL._UY550_.jpg" />
+    <Content Include="Images\ProductImages\32\81Ci1YVMKIL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\32\81kSj8If0ML._UX679_.jpg" />
+    <Content Include="Images\ProductImages\32\81y26+ldwsL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\32\81zV+PNqi2L._UX679_.jpg" />
+    <Content Include="Images\ProductImages\32\91t5s5O7LvL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\32\91U+SnN7PfL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\3\719ZLZHNaRL._UX466_.jpg" />
+    <Content Include="Images\ProductImages\3\71EOg-Fh7SL._UX466_.jpg" />
+    <Content Include="Images\ProductImages\3\71J5v1vrKaL._UX466_.jpg" />
+    <Content Include="Images\ProductImages\3\812QTkRbrtL._UX466_.jpg" />
+    <Content Include="Images\ProductImages\3\91GcdlBoi5L._UX466_.jpg" />
+    <Content Include="Images\ProductImages\4\618KhG5ObAL._UX466_.jpg" />
+    <Content Include="Images\ProductImages\4\61IZZ3VfxxL._UX466_.jpg" />
+    <Content Include="Images\ProductImages\4\61zoC8vE+LL._UX466_.jpg" />
+    <Content Include="Images\ProductImages\4\710vnv-X43L._UX466_.jpg" />
+    <Content Include="Images\ProductImages\5\81D1hdCQw2L._UY741_.jpg" />
+    <Content Include="Images\ProductImages\5\81dg+DcfDcL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\5\81fJphMXK5L._UY741_.jpg" />
+    <Content Include="Images\ProductImages\5\81NqAxSEVGL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\5\91SOAef4+GL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\6\71jureJVMFL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\6\71MG6X9zebL._UY879_.jpg" />
+    <Content Include="Images\ProductImages\6\71yc2dj0cvL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\6\81HoIsRlOQL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\6\81LnyoYBZPL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\7\81JbCBcFZQL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\7\81o2fz5SzWL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\7\81OD-4pZYvL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\7\81ttKP5setL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\7\91kFT25ykVL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\8\812nMJBfyLL._SY741._SX._UX._SY._UY_.jpg" />
+    <Content Include="Images\ProductImages\8\814mMt+tFML._UY741_.jpg" />
+    <Content Include="Images\ProductImages\8\91ctWIf3wuL._UY741_ %281%29.jpg" />
+    <Content Include="Images\ProductImages\8\91ctWIf3wuL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\8\91Nx-5YB7fL._UY741_.jpg" />
+    <Content Include="Images\ProductImages\9\61kVloUc2eL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\9\71AqZhojt0L._UX679_.jpg" />
+    <Content Include="Images\ProductImages\9\71szsdaiDpL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\9\71YpMMbFuNL._UX679_.jpg" />
+    <Content Include="Images\ProductImages\9\71ZFZQBp8ZL._UY879_.jpg" />
+    <Content Include="Images\ProductImages\footwer.jpg" />
+    <Content Include="Images\womens.jpg" />
+    <Content Include="js\bootstrap.bundle.js" />
+    <Content Include="js\bootstrap.bundle.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="ManDenims.aspx" />
+    <Content Include="ManPants.aspx" />
+    <Content Include="ManShirt.aspx" />
+    <Content Include="Payment.aspx" />
+    <Content Include="Products.aspx" />
+    <Content Include="ProductView.aspx" />
+    <Content Include="RecoverPassword.aspx" />
+    <Content Include="Report.aspx" />
+    <Content Include="SHIRTS\Levis\short-s\41Y3HVwUzXL._SR38,50_.jpg" />
+    <Content Include="SHIRTS\Levis\short-s\71fgeTenB8L._UX569_.jpg" />
+    <Content Include="SHIRTS\Levis\short-s\813uWOHbNAL._UX569_.jpg" />
+    <Content Include="SHIRTS\Levis\short-s\81yIWwVcLCL._UY879_.jpg" />
+    <Content Include="SHIRTS\Levis\short-s\91mN4bQmnzL._UX569_.jpg" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="SubCategory.aspx" />
+    <Content Include="Success.aspx" />
+    <Content Include="UserHome.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="womanLegging.aspx" />
+    <Content Include="WomanSarees.aspx" />
+    <Content Include="WomanTop.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddBrand.aspx.cs">
+      <DependentUpon>AddBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCategory.aspx.cs">
+      <DependentUpon>AddCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddGender.aspx.cs">
+      <DependentUpon>AddGender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddProduct.aspx.cs">
+      <DependentUpon>AddProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddSize.aspx.cs">
+      <DependentUpon>AddSize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMasterPage.Master.cs">
+      <DependentUpon>AdminMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMasterPage.Master.designer.cs">
+      <DependentUpon>AdminMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CountactUs.aspx.cs">
+      <DependentUpon>CountactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CountactUs.aspx.designer.cs">
+      <DependentUpon>CountactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditBrand.aspx.cs">
+      <DependentUpon>EditBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCategory.aspx.cs">
+      <DependentUpon>EditCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditSize.aspx.cs">
+      <DependentUpon>EditSize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditSubCategory.aspx.cs">
+      <DependentUpon>EditSubCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.designer.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManDenims.aspx.cs">
+      <DependentUpon>ManDenims.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManPants.aspx.cs">
+      <DependentUpon>ManPants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManShirt.aspx.cs">
+      <DependentUpon>ManShirt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductView.aspx.cs">
+      <DependentUpon>ProductView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecoverPassword.aspx.cs">
+      <DependentUpon>RecoverPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecoverPassword.aspx.designer.cs">
+      <DependentUpon>RecoverPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubCategory.aspx.cs">
+      <DependentUpon>SubCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Success.aspx.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.master.cs">
+      <DependentUpon>User.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome.aspx.cs">
+      <DependentUpon>UserHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="womanLegging.aspx.cs">
+      <DependentUpon>womanLegging.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WomanSarees.aspx.cs">
+      <DependentUpon>WomanSarees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WomanTop.aspx.cs">
+      <DependentUpon>WomanTop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminMasterPage.Master" />
+    <None Include="css\bootstrap-grid.css.map" />
+    <None Include="css\bootstrap-grid.min.css.map" />
+    <None Include="css\bootstrap-reboot.css.map" />
+    <None Include="css\bootstrap-reboot.min.css.map" />
+    <None Include="css\bootstrap-theme.css.map" />
+    <None Include="css\bootstrap-theme.min.css.map" />
+    <None Include="css\bootstrap.css.map" />
+    <None Include="css\bootstrap.min.css.map" />
+    <Content Include="User.master" />
+    <None Include="image\ecommerce-website-like-amazon-banner.webp" />
+    <None Include="js\bootstrap.bundle.js.map" />
+    <None Include="js\bootstrap.bundle.min.js.map" />
+    <None Include="js\bootstrap.js.map" />
+    <None Include="js\bootstrap.min.js.map" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57757</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
